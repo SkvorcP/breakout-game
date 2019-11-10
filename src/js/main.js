@@ -56,6 +56,7 @@ function mouseMoveHandler(e) {
     paddleX = relativeX - paddleWidth/2;
   }
 }
+
 function collisionDetection() {
   for(var c=0; c<brickColumnCount; c++) {
     for(var r=0; r<brickRowCount; r++) {
